@@ -1,0 +1,20 @@
+.button {
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 16px;
+
+  &_black {
+    background: #272829;
+    width: 166px;
+  }
+  &_red {
+    background: #dc3545;
+    width: 131px;
+  }
+  &_grey {
+    background: #6c757d;
+    width: 215px;
+  }
+}

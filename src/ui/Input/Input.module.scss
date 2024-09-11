@@ -1,0 +1,23 @@
+.input {
+  &__text {
+    margin-right: 20px;
+    width: 100%;
+    max-width: 356px;
+    height: 38px;
+    padding-left: 14px;
+    color: #54595e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  &__checkbox {
+    width: 20px;
+    height: 16px;
+    accent-color: #7749f8;
+    &:checked ~ p {
+      color: #54595e;
+      text-decoration: line-through;
+      opacity: 0.5;
+    }
+  }
+}
